@@ -23,7 +23,7 @@
                 <p class="text-gray-900">{{ $order->address }}</p>
             </div>
             <div>
-                <h2 class="font-semibold text-gray-700">Сервис</h2>
+                <h2 class="font-semibold text-gray-700">Услуга</h2>
                 <p class="text-gray-900">@if(isset($order->service)) {{ $order->service->name }} @else {{ $order->other_service }} @endif</p>
             </div>
             <div>
